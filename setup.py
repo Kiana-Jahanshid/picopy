@@ -5,14 +5,14 @@ from setuptools import setup
 
 
 def pre_install():
-    #f = open("readme.md" , "r")
-    text = "picopy package" #f.read()
+    f = open("README.md" , "r")
+    text = f.read()
     return text
 
 setup(name="picopy" ,
-      version="1.0.1", 
+      version="1.0.2", 
       author="kiki js" , 
-      description="convert image to watercolor", 
+      description="convert an image to a watercolor image 🎨", 
       long_description=pre_install() , # its like readme
       requires= [] ,
       author_email="k.jhnshid@gmail.com",
