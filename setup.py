@@ -12,7 +12,7 @@ def pre_install():
 setup(name="picopy" ,
       version="1.0.0", 
       author="kiki js" , 
-      description="a test package", 
+      description="convert image to watercolor", 
       long_description=pre_install() , # its like readme
       requires= [] ,
       author_email="k.jhnshid@gmail.com",
