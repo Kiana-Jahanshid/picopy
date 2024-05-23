@@ -27,8 +27,8 @@ def convert_image_to_watercolor(input_image):
     image_sharp = cv2.addWeighted(image_filtered, 1.5, gaussian_mask, -0.5, 0)
     image_sharp = cv2.addWeighted(image_sharp, 1.4, gaussian_mask, -0.2, 10)
     cv2.imwrite("watercolor.jpg" , img=image_sharp)
-    cv2.imshow('Final Image', image_sharp)
-    cv2.waitKey(0)
+    #cv2.imshow('Final Image', image_sharp)
+    #cv2.waitKey(0)
 
 
 if __name__ == "__main__":
