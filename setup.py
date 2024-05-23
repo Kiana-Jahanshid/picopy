@@ -10,7 +10,7 @@ def pre_install():
     return text
 
 setup(name="picopy" ,
-      version="1.0.0", 
+      version="1.0.1", 
       author="kiki js" , 
       description="convert image to watercolor", 
       long_description=pre_install() , # its like readme
