@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import argparse 
 
 def convert_image_to_watercolor(input_image):
     image = cv2.imread(input_image)
@@ -7,8 +8,8 @@ def convert_image_to_watercolor(input_image):
 
     #removing impurities from image
     image_cleared = cv2.medianBlur(image_resized, 3)
-    #image_cleared = cv2.medianBlur(image_cleared, 3)
     image_cleared = cv2.medianBlur(image_cleared, 3)
+    #image_cleared = cv2.medianBlur(image_cleared, 3)
     image_cleared = cv2.edgePreservingFilter(image_cleared, sigma_s=5)
 
     #Bilateral Image filtering 
@@ -32,16 +33,24 @@ def convert_image_to_watercolor(input_image):
 
 
 if __name__ == "__main__":
-    input_image = "c1.jpg"
-    watercolor_image = convert_image_to_watercolor(input_image=input_image)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--imagepath" , type=str , help="write your image's path")
+    arg = parser.parse_args()
+    watercolor_image = convert_image_to_watercolor(input_image=arg.imagepath)
     
 
 
 
-'''
-! pip install picopy
-# from package_name import filename
-from picopy import picopy
-picopy.convert_to_watercolor("image.jpg")
+''' 
+how to run :
+
+!pip install picopy
+from picopy import picopy   # from package_name import filename
+picopy.convert_image_to_watercolor("image.jpg")
+
+or 
+
+pip install picopy
+python picopy.py --imagepath "c1.jpg"
 
 '''
