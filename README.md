@@ -1,8 +1,8 @@
 # Convert an Image To a Watercolor Image
 
 <p align="center">
-    <img src="picopy/na.jpg" width="310" height="200" style="margin-right: 30px" >
-    <img src="picopy/watercolor.jpg" width="310" height="200">
+    <img src="picopy/na.jpg" width="280" height="200" style=  "horizontal-align:middle;margin:20px 60px">
+    <img src="picopy/watercolor.jpg" width="345" height="245" >
 </p>
 
 ## Installation 
