@@ -51,6 +51,6 @@ picopy.convert_image_to_watercolor("image.jpg")
 or 
 
 pip install picopy
-python picopy.py --imagepath "c1.jpg"
+picopy --imagepath "image.jpg"
 
 '''

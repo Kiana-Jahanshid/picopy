@@ -1,39 +1,41 @@
 # Convert an Image To a Watercolor Image 
 
-+ input :
++ Input :
 <p align="center">
-    <img src="picopy/na.jpg" width="270" height="190" >
+    <img src="picopy/na.jpg" width="290" height="200" >
 </p> 
 
 <br>
 
-+ output :
++ Output :
 <p align= "center">
-    <img src="picopy/watercolor.jpg" width="380" height="280" >
+    <img src="picopy/watercolor.jpg" width="410" height="300" >
 </p>
 
 <br/>
 
-## Installation 
+# Installation 
 
 ```bash
 pip install picopy
 ```
 
-## How to use 
+<br>
+
+# How to use 
 
 ### 1. Use with Python environments : 
 
 ```python
 from picopy import picopy 
 
-picopy.convert_image_to_watercolor("test.jpg") 
+picopy.convert_image_to_watercolor("image.jpg") 
 ```
 
 ### 2. Use with CLI :
 
 ```bash
-picopy --imagepath "test.jpg"
+picopy --imagepath "image.jpg"
 ```
 
 
