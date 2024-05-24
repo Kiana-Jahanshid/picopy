@@ -17,7 +17,7 @@ with open('./requirements.txt') as f:
 
 
 setup(name="picopy" ,
-    version="1.0.8", 
+    version="1.0.9", 
     author="kiki js" , 
     description="convert an image to a watercolor image 🎨", 
     long_description=pre_install() ,
@@ -27,7 +27,8 @@ setup(name="picopy" ,
     long_description_content_type='text/markdown' ,
     install_requires= install_requires ,
     url="https://github.com/Kiana-Jahanshid/picopy" ,
-    entry_points={"console_scripts": ["picopy=picopy.picopy:convert_image_to_watercolor"]}
+    entry_points={"console_scripts": ["picopy=picopy.picopy:convert_image_to_watercolor"]},
+    include_package_data=True
     )
 
 
