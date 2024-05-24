@@ -17,7 +17,7 @@ with open('./requirements.txt') as f:
 
 
 setup(name="picopy" ,
-    version="1.0.10", 
+    version="1.0.11", 
     author="kiki js" , 
     description="convert an image to a watercolor image 🎨", 
     long_description=pre_install() ,

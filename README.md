@@ -20,20 +20,32 @@ pip install picopy
 
 # How to use 
 
-### 1. Use with Python environments : 
+## 1. Use with Python environments : 
 
 ```python
 from picopy import picopy 
 
-picopy.convert_image_to_watercolor("image.jpg") 
-```
+picopy.convert_image_to_watercolor("image.jpg")
 
-### 2. Use with CLI :
+ or 
+
+picopy.convert_image_to_watercolor("https://..../image.jpg")
+```
+<br>
+
+## 2. Use with CLI :
+
++ using local image :
 
 ```bash
 picopy --imagepath "image.jpg"
 ```
 
++ using URL :
+
+```bash
+picopy --imagepath "https://..../image.jpg"
+```
 
 
 Your watercolored image will be saved in your file folder .
