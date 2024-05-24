@@ -1,12 +1,12 @@
 # Convert an Image To a Watercolor Image 
 
 + Input :
-<p align="center"><img src="https://github.com/Kiana-Jahanshid/picopy/blob/main/na.jpg" width="290" height="200" ></p> 
+<p align="center"><img src="https://github.com/Kiana-Jahanshid/picopy/picopy/na.jpg" width="290" height="200" ></p> 
 
 <br>
 
 + Output :
-<p align="center"><img src="https://github.com/Kiana-Jahanshid/picopy/blob/main/watercolor.jpg" width="410" height="300" ></p>
+<p align="center"><img src="https://github.com/Kiana-Jahanshid/picopy/picopy/watercolor.jpg" width="410" height="300" ></p>
 
 <br/>
 
