@@ -2,14 +2,14 @@
 
 + Input :
 <p align="center">
-    <img src="picopy/na.jpg" width="290" height="200" >
+    <img src="https://github.com/Kiana-Jahanshid/picopy/blob/main/picopy/na.jpg" width="290" height="200" >
 </p> 
 
 <br>
 
 + Output :
 <p align= "center">
-    <img src="picopy/watercolor.jpg" width="410" height="300" >
+    <img src="https://github.com/Kiana-Jahanshid/picopy/blob/main/picopy/watercolor.jpg" width="410" height="300" >
 </p>
 
 <br/>

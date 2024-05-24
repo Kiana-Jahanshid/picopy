@@ -25,7 +25,9 @@ setup(name="picopy" ,
     author_email="k.jhnshid@gmail.com",
     packages=["picopy"] ,
     long_description_content_type='text/markdown' ,
-    install_requires= install_requires
+    install_requires= install_requires ,
+    url="https://github.com/Kiana-Jahanshid/picopy" ,
+    entry_points={"console_scripts": ["picopy=picopy.picopy:convert_image_to_watercolor"]}
     )
 
 
