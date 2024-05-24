@@ -38,13 +38,13 @@ picopy.convert_image_to_watercolor("https://..../image.jpg")
 + using local image :
 
 ```bash
-picopy --imagepath "image.jpg"
+python -m picopy.picopy --imagepath "image.jpg"
 ```
 
 + using URL :
 
 ```bash
-picopy --imagepath "https://..../image.jpg"
+python -m picopy.picopy --imagepath "https://..../image.jpg"
 ```
 
 
